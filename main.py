@@ -403,7 +403,7 @@ async def cookies_handler(client: Client, m: Message):
     Allows the admin to upload or update the cookies file dynamically.
     """
     # Check if the user is the admin 🛑
-    if m.from_user.id != ADMIN_ID: 8036182138
+    if m.from_user.id != ADMIN_ID:
         await m.reply_text("🚫 You are not authorized to use this command.")
         return
 
